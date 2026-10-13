@@ -24,7 +24,7 @@ const cutoff = new Date();
 cutoff.setFullYear(cutoff.getFullYear() - KEEP_YEARS);
 const cutoffStr = cutoff.toISOString().slice(0, 10);
 
-const DATE = /^\d{4}-\d{2}(-\d{2})?$/;
+const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 const errors = [];
 const warnings = [];
 const ids = new Set();

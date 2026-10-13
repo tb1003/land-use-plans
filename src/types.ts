@@ -29,7 +29,7 @@ export interface Source {
 }
 
 export interface TimelineEvent {
-  /** YYYY-MM-DD 或 YYYY-MM */
+  /** YYYY-MM-DD、YYYY-MM 或 YYYY */
   date: string;
   event: string;
   /** 對應 sources 的索引 */
